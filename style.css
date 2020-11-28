@@ -1,0 +1,35 @@
+.ocultar {
+  display: none;
+}
+.mostrar {
+  display: block;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background: linear-gradient(
+    to right,
+    rgba(255, 175, 75, 1) 0%,
+    rgba(255, 146, 10, 1) 100%
+  );
+}
+#salida {
+  text-align: center;
+  font-family: cursive;
+}
+
+p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.boton {
+  width: 100px;
+  height: 100px;
+  background-color: peru;
+  border-radius: 20%;
+  margin-bottom: 30px;
+  outline: none;
+}
